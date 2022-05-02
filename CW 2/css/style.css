@@ -1,0 +1,195 @@
+body{
+  background-image: url(https://pbs.twimg.com/media/DQw4cyTVwAEC9kn.jpg);
+background-repeat: repeat;
+}
+/*this chnages the background of the site to the image selected through using the url */
+nav a {
+color: white;
+padding: 10px;
+flex-grow: 2;
+text-align: center;
+background-color: black;
+font-size: 40px;
+outline-style: solid; color: white;
+}
+/* this is creating the style for the menu, it is expanding the background through the flex grow element, it is aslo aliging the text to center and creating a white border*/
+
+p{
+  font-size: 45px;
+  border: 10px white solid;
+  border-top: 10px white dashed;
+    border-radius: 10px;
+}
+/*this chnages the font size and creates a border for all text in the p element, unless they have been put in a class element */
+.logo{
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin right: 20px;
+}
+/*this chnages the size of the photo that has been labbled logo */
+
+.jodie{
+  width: 450px;
+  height: 375px;
+  float: left;
+}
+/*this chnages the size of the photo that has been labbled jodie */
+
+.njodietext{
+  text-align: right;
+}
+/*this alligns the specifc text njodietext */
+.spearhead{
+  width: 300px;
+  height: 250px;
+  float: left;
+}
+/*this chnages the size of the photo that has been labbled spearhead */
+.collection{
+  width: 300px;
+  height: 250px;
+  float: left;
+}
+/*this chnages the size of the photo that has been labbled collection */
+
+h1{
+  float: left;
+  font-size: 60px;
+}
+/*this places all h1 elemnt text to the left and the same font size */
+h2{
+  font-size: 50px;
+  border: 10px white solid;
+  border-top: 10px white dashed;
+    border-radius: 10px;
+}
+/*this chnags the font size for all h2 element text and creates a white border around all the text to look more asethitically appealing */
+
+
+.special{
+  width: 400px;
+  height: 250px;
+  float: left;
+}
+/*this chnages the size of the photo that has been labbled special */
+
+.specialtext{
+  text-align: left;
+  font-size: 30px
+}
+/*this alligns the text and chnages the size */
+
+.missing{
+  width: 400px;
+  height: 250px;
+  float: right;
+}
+/*this chnages the size of the photo that has been labbled missing */
+
+.missingtext{
+  text-align: right;
+  font-size: 30px;
+}
+/*this alligns the text and chnages the size */
+.missinghead{
+  text-align: right;
+}
+
+.dw2{
+  width: 400px;
+  height: 250px;
+  float: left;
+}
+/*this chnages the size of the photo that has been labbled dw2 */
+
+.ttext{
+  text-align: left;
+  font-size: 30px;
+}
+/*this alligns the text and chnages the size */
+.thead{
+  text-align: left;
+}
+
+.dw10{
+  width: 400px;
+  height: 250px;
+  float: right;
+}
+/*this chnages the size of the photo that has been labbled dw10 */
+
+.tenhead{
+  text-align: right;
+}
+
+.tentext{
+  text-align: right;
+  font-size: 30px;
+}
+/*this alligns the text and chnages the size */
+.jodie2{
+  width: 500px;
+  height: 450px;
+  float: left;
+}
+/*this chnages the size of the photo that has been labbled jodie2 */
+
+.jodietext{
+  text-align: left;
+  font-size: 40px;
+}
+/*this alligns the text and chnages the size */
+.jhead{
+  text-align: left;
+  font-size: 60px;
+}
+
+.mandip{
+  width: 500px;
+  height: 450px;
+  float: left;
+}
+/*this chnages the size of the photo that has been labbled mandip */
+
+.hmandip{
+  text-align: left;
+  font-size: 60px;
+}
+
+.madtext{
+  text-align: left;
+  font-size: 40px;
+}
+/*this alligns the text and chnages the size */
+.jv{
+  font-size: 60px;
+}
+
+.mv{
+  font-size: 60px;
+}
+
+.twitter{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+/*this chnages the size of the photo that has been labbled twitter */
+.facebook{
+  width: 100px;
+  height: 100px;
+}
+/*this chnages the size of the photo that has been labbled facebook */
+
+.instagram{
+  width: 100px;
+  height: 100px;
+}
+/*this chnages the size of the photo that has been labbled instagram */
+
+.footer{
+  text-align: center;
+  font-size: 20px;
+}
+/*this formeats the footer elemnt to centerlise and reduce the font size */
